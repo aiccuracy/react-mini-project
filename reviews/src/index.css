@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: "Gentium Plus", serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 1.25rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0.8rem;
+    text-transform: capitalize;
+}
+
+h4 {
+    font-size: 1rem;
+    color: skyblue;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+}
+
+p {
+    font-size: 0.875rem;
+    margin-bottom: 0.8rem;
+}
+
+article {
+    display: flex;
+}
+
+.underline {
+    height: 0.25rem;
+    width: 5rem;
+    background-color: skyblue;
+    margin: 1rem auto;
+}
+
+.review-box {
+    background: #ffe6e6;
+    text-align: center;
+    padding: 2rem;
+    overflow: hidden;
+    margin: 4rem auto;
+    max-width: 800px;
+    box-shadow: 0.2rem 0.2rem lightgrey;
+    border-radius: 0.3rem;
+}
+
+.review-box img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 70%;
+    object-fit: cover;
+}
+
+.review-box p {
+    color: grey;
+}
+
+.btn {
+    background: none;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    border: 2px solid lightgrey;
+    color: skyblue;
+    cursor: wait;
+}
+
+.icons {
+    width: 2rem;
+    height: 2rem;
+    color: skyblue;
+    cursor: pointer;
+    transition: all 0.3s linear 0.3s;
+}
